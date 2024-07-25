@@ -1,0 +1,51 @@
+update contact.service.ts
+
+import { Injectable } from '@angular/core';
+import { of, Observable } from 'rxjs';
+import { Contacts } from '../models/contacts';
+export class ContactService {
+  contacts = {
+    'contactsList': [
+        {'id': 1, 'name': 'Rajesh', 'city': 'bangalore'},
+        {'id': 2, 'name': 'Aarjith', 'city': 'london'},
+        {'id': 3, 'name': 'Anjan', 'city': 'california'},
+        {'id': 4, 'name': 'David', 'city': 'delhi'}
+    ]
+  };
+  constructor(
+  ) { }
+
+  getContacts(): Observable<Contacts> {
+    // send contacts to subscriber
+    return of(this.contacts);
+  }
+}
+
+
+----------------------------
+
+update contact-list.component.ts
+
+import { Component, OnInit } from '@angular/core';
+import { ContactService } from 'src/app/services/contact.service';
+@Component({
+  selector: 'app-contact-list',
+  templateUrl: './contact-list.component.html',
+  styleUrls: ['./contact-list.component.css']
+})
+export class ContactListComponent implements OnInit {
+  contacts;
+  constructor(
+    private contactService: ContactService
+  ) { }
+
+  ngOnInit() {
+    // get contacts from service and assign it to contacts
+    this.contactService.getContacts().subscribe( data => {
+      this.contacts = data ? data.contactsList : [];
+    });
+  }
+
+}
+
+
