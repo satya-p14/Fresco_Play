@@ -1,0 +1,102 @@
+Question 1: Which command helps to reduce duplication?
+Answer: dedupe
+Question 2: Scoped Packages begin with __________.
+Answer: @
+Question 3: Which of the following commands can be used to publish a public package?
+Answer: npm publish --access=public
+Question 4: Sudo command is ______________.
+Answer: Used to change permissions in npm
+Question 5: Which of the following command is used to find the version of npm?
+Answer: $ npm -version
+Question 6: By default, npm installs any dependency in the global mode.
+Answer: False
+Question 7: A package.json file _________.
+Answer: All the options mentioned
+Question 8: Which of the following commands help in updating npm packages?
+Answer: npm update
+Question 9: Which of the command is a quicker way to generate a package.json file?
+Answer: 1. npm init -x 2. npm install -x
+Question 10: Which of the following commands can be used to remove the packages that are not being used in a project?
+Answer: npm prune
+Question 11: Semantic Versioning (SemVer) is versioning convention composed of three numbers which are ____________.
+Answer: Major.Minor.Patch
+Question 12: npm by default installs packages in which scope?
+Answer: Local
+Question 13: npm is __________.
+Answer: Both
+Question 14: Packages which are required only for development and testing are configured in__________.
+Answer: devdependencies
+Question 15: The below command can be used to set the username as scope.
+Answer: npm config set scope 
+Question 16: Installing a package in npm will ___________.
+Answer: All of the options mentioned
+Question 17: Which of the following is not an npm command?
+Answer: auth
+Question 18: Which of the following is not a package manager?
+Answer: gulp
+Question 19: A package.json must have _________.
+Answer: Both
+Question 20: Which of the following commands can be used to install package "lodash" with a specific minor version?
+Answer: npm install lodash@3.1 --save
+Question 21: Installing a package globally will download the package into node_modules directory and creates a command in the bin directory linking it to the package.
+Answer: True
+Question 22: Which of the following commands can be used to check if the project has all latest versions of the packages?
+Answer: npm outdated
+Question 23: A_______ is a file or directory that is described by a package.json.
+Answer: Package
+Question 24: Which of the following commands can be used to install a package as a devDependency?
+Answer: npm install  --save-dev
+Question 25: "npm config get prefix" command returns the path where __________
+Answer: global packages are installed
+Question 26: Which of the following commands can be used to create a scoped package?
+Answer: 1. npm init @ 2. npm init --scope=@
+Question 27: Which of the following commands can be used to create user with access to npm registry?
+Answer: npm adduser
+Question 28: By default scoped packages are published as __________.
+Answer: Private
+Question 29: Documentation related to the package is usually available in __________.
+Answer: README.md
+Question 30: On trying to publish a package with name matching an existing package, npm will increment the major version and override the existing package in registry.
+Answer: False
+Question 31: Which of the following search commands returns all packages with name starting with Aj~?
+Answer: npm search re
+Question 32: Package Management Tool used by Facebook and Google is __________.
+Answer: NPM
+Question 33: "npm ls" is used to _________.
+Answer: list installed modules
+Question 34: Which of the following commands can be used to list top level modules?
+Answer: npm list
+Question 35: Package names in npm registry do not have to be unique.
+Answer: False
+Question 36: What command is used to update and edit the contents of the user and global npmrc files?
+Answer: npm config
+Question 37: Which command allows users to lock down the versions of installed packages?
+Answer: shrinkwrap
+Question 38: Which of the following commands can be used to check if the project has all the latest versions of the packages?
+Answer: npm checklatest
+Question 39: Arguments in the npm run command refers to __________ in package.json?
+Answer: property configured in script object
+Question 40: Which of the following commands can be used to install package "lodash" with a specific major version and latest minor and patch versions?
+Answer: 1. npm install lodash@3 --save 2. npm install lodash@3.1.1 --save
+Question 41: Which of the following commands can be used to install npm packages globally?
+Answer: npm install -g 
+Question 42: Which of the commands is used to change the public package to private?
+Answer: npm access restricted 
+Question 43: Run "npm install lodash" in your terminal. What do you notice?
+Answer: Only Lodash is installed
+Question 44: NPM is a package manager for ____________.
+Answer: Javascript programming language
+Question 45 :  The following are all NPM commands, except 
+Answer : Auth
+Question 46 : Which of the following commands can be used to set the username as scope.
+Answer : npm config set scope <username>
+Question 47 :  The Package Management Tool used by Facebook and Google is 
+Answer : Yarn
+
+
+
+
+
+
+
+
