@@ -1,0 +1,33 @@
+update app.component.ts with below code 
+
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html' //// refer app.component.html for property binding
+})
+export class AppComponent {
+  //Define your name and show variables here
+  //Define your welcomeMe(username) method here
+  public name: string = "John Doe";
+  public show: boolean = false;
+
+  welcomeMe(username: string) {
+    this.name = username;
+    this.show = true;
+  }
+}
+
+
+update app.component.html with below code 
+
+Enter Your Name:
+<input #userName type="text" value=''>
+<button #btn (click)=welcomeMe(userName.value)> Welcome Me </button>
+<br>
+<h2> Message from Event Binding</h2>
+<h3 id="output">
+  <!--add your welcome message with name like `Welcome <name>`-->
+    Welcome {{ name }}
+</h3>
+
+
