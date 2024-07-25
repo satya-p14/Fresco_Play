@@ -1,0 +1,39 @@
+NPM - Package Manager
+
+Hands on 1 : 
+-------------------
+
+npm init
+npm_package // (after this press enter multiple times till the line "is itok?(yes)"give yes and press enter)
+npm install react
+npm install lodash@4.17.0 --save
+npm install redux@4 --save
+npm install mocha --save-dev
+npm install eslint@6 --save-dev
+
+//(run the test)
+
+----------------------------------------------------
+Hands on 2 : 
+
+npm init
+npm_commands //(after this press enter multiple times till the line "is it ok?(yes)" give yes and press enter)
+create index.js in root of folder
+Open index.js file and add below code and save
+
+	[
+		var myVar="node package manager".toUpperCase();
+		console.log(myVar);
+	]
+
+Open package.json
+Go to script section and add below
+
+"release":"npm -v && node -v", 
+"build":"node index.js"
+ 
+run in terminal : npm run release|tee output1.txt 
+run in terminal :  npm run build|tee output.txt
+
+//(run the test)
+
