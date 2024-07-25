@@ -1,0 +1,17 @@
+update app.component.ts with below code 
+
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html'   // refer app.component.html for adding message value using property binding
+})
+export class AppComponent {
+  message = "hey there";
+}
+
+update app.component.html with below code 
+
+<!--use your message property here using property binding-->
+<span [innerText]="message"></span>
+
+
