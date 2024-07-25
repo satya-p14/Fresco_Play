@@ -1,0 +1,68 @@
+update app.component.html with below code 
+
+-------------------------------------------------------------
+
+<h1>Fresco PLAY Activity Tracker</h1>
+<div>
+    <div *ngFor="let todo of todos; let i=index" class="todoItem">
+        <input type="checkbox" [(ngModel)]="todo.done" />
+        <span [ngClass]="{'checked': todo.done , 'strikethrough':todo.done}">{{i+1}}. {{ todo.desc }}</span>
+    </div>
+    <span *ngIf="todos.length == 0">No Activities to track! Start by adding one</span><br />
+    <input id="newTodo" type="text" [(ngModel)]="newToDo">
+    <span *ngIf="error" style="color:red;">Please enter an activity!</span>
+    <br />
+    <button id="addActivity" (click)="addMore()">Add an Activity!</button>
+    <button id="clearAll" (click)="clearAll()">Clear All</button>
+</div>
+
+-------------------------------------------------------------
+
+update app.component.ts with below code 
+
+-------------------------------------------------------------
+
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  //Define your variables done,todos,newToDo,newToDoObj,error
+  //Define your constructor here with todos as [] ,newToDo as '' and error as false
+  //Define your addMore function here
+  //Define your clearAll function here
+  public done: boolean;
+  public todos: any;
+  public newToDo: string;
+  public newToDoObj: any;
+  public error: boolean;
+  //public TODOS: Array<any>;
+  constructor() {
+    this.todos = [];
+    this.newToDo = '';
+    this.error = false;
+  }
+
+  public addMore() {
+    this.todos.push({ done: false, desc: this.newToDo });
+  }
+
+  public clearAll() {
+    this.todos = [];
+    this.newToDo = "";
+  }
+
+}
+
+-------------------------------------------------------------
+
+update app.component.css with below code 
+
+.strikethrough {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  color: red;
+}
+
