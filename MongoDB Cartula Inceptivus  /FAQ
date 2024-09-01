@@ -18,6 +18,35 @@ Which of the following is not a stage in Pipeline aggregation?  $order
 
 Which is the aggregate command in MongoDB that uses a pipeline approach? : aggregate
 
+Which of the following can be an interactive shell for mongoDB? : mongo
+
+Which is the method used to check whether collection is capped or not : isCapped().
+
+_______ storage engine supports document level concurrency model. : wiredTiger
+
+Column in SQL terminology is _________ in MongoDB. : field
+
+Which collection maintains insertion order and behaves like a circular queue once specified size has reached? : capped Collection
+
+On which cursor MongoDB capped collections remains open after the client exhausts the results? : Tailable Cursor
+
+_______ is the tool that provides an interface between objects stored in your file system and GridFS. : mongofiles
+
+Which is the command-line tool used to provide a method to keep track of the amount of time a MongoDB instance spends reading and writing data? : mongotop
+
+Which of the following data type is not used in MongoDB? : Value
+
+What will be the output when following commands are executed in sequence on MongoShell? db.stock.insert({"_id":1}) db.stock.insert({"_id":1}) : E11000 duplicate key error collection
+
+Which command-line tool provides statistics per-collection level? mongotop
+
+Collection in MongoDB that supports fixed-size are called _______________. : Capped Collection
+
+Which of the following is correct to suppress a "Title" from the resultset? : Title,0
+
+
+
+
 
 
 
