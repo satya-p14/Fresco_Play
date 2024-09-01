@@ -1,0 +1,26 @@
+In Mongodb high ...... can be achieved with replica sets : scalability
+
+From the following ... is a NoSQL Database Type : oracle
+
+From the following ...... is the simplest NoSQL databases : Key-value pair
+
+__________ is the method used to limit the records in MongoDB. : Limit()
+
+From the collection Books, find the commands that removes a single document matching the condition - Auditor is Joseph? : db.books.remove( { Auditor: Joseph }, {justOne: true} )
+
+__________ is the command in mongodb that is equivalent of SQL's truncate. : db.col.remove()
+
+Find the correct syntax to calculate aggregate values for the data in a collection. : db.collection.aggregate()
+
+$match in MongoDB is similar to SQL. : Both WHERE and HAVING
+
+Which of the following is not a stage in Pipeline aggregation?  $order
+
+Which is the aggregate command in MongoDB that uses a pipeline approach? : aggregate
+
+
+
+
+
+
+
