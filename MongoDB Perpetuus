@@ -1,0 +1,65 @@
+
+Which is the Index used for multiple fields? : Compound Index
+
+In MongoDB, these are used to index array data. Choose the correct option(s) : MutiKey Index
+
+Which is the method used to create Index in MongoDB? : ensureIndex()
+
+Which will be the command to return information on query plans and execution statistics of the query plans? : explain()
+
+Which is the method used to check the current length of replication lag? : rs.printSlaveReplicationInfo()
+
+In MongoDB, identify the command that adds an shard with a sharded Cluster. : addShard
+
+Choose the operations that can be captured by database profiler? : Cursor Operations ,Read operations ,Write operations
+
+Mongo client will generate _____ command to initiate a new replica set. : rs.initiate()
+
+Which of the following in MongoDB is a system that can help identify inefficient queries and operations? : Profiler
+
+The chunk operations performed on background is __________. : 
+
+______ can be used to check if the connected node is primary or not? : db.isMaster()
+
+In DataProfiler __________ will show to indicate there is no index use. : executionStats.nReturned
+
+Find the command that forces MongoDB to use a particular index for a db.collection.find() operation. : hint()
+
+Identify the index type that supports searching for string content in a collection. : Text Indexes
+
+Which method is used to return information for all users associated with a database? : db.getUsers()
+
+By default, MongoDB automatically logs slow queries above _____ ms to the log. : 100ms
+
+From the following, find the background process that keeps chunks from growing too large. : Splitting 
+
+Which model is used to describe reference relationships between documents? : Reference Model
+
+Which of the following can be used to check the status of replica set? : rs.status()
+
+Which can be used to check the replica set configuration? : rs.conf()
+
+In MongoDB, explain() option shows the number of documents looked for a query. : nscanned
+
+Choose the indexes to index the content stored in arrays. : Multikey indexes
+
+Find a technique of splitting up a large collection among multiple servers. : Sharding
+
+Which of the following is supported for backing up and restoring MongoDB deployments? : 
+
+Which of the following in MongoDB provides information for various lock types and lock modes held during the operation : system. profile. locks
+
+In MongoDB, _________ helps to synchronize data across multiple servers. : Replication
+
+In MongoDB, which is the storage measure used by master's oplog? : GB
+
+Which is the method to check the size of the oplog for a given replica set member? : 
+
+Which of the following will help to identify long running queries? : db.currentOp()
+
+Choose the data model which allows applications to store related pieces of information in the same database record. : Embedded Model
+
+In MongoDB, _________ is the operator limits the contents of an array field from the query. : $elemMatch
+
+From the following, find which will provide more even data distribution across the sharded cluster. : 
+
