@@ -1,0 +1,10 @@
+New fields to user profiles can be added from administrative interface :  true
+
+Which type of project can you add in your angular workspace? : Both application and library
+
+Which of the following attribute, inside your angular.json file, defines the configuration of all the projects inside your angular workspace? : projects
+
+________ compiler is used when to run "ng build" and ______ compiler is used in "ng build --prod". : JIT, AOT
+
+Which of the following will you use to convert returned observables, to json format? : Angular has got super powers in latest versions, and it will automatically convert the returned observables to json by default
+
