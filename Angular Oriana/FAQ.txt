@@ -8,3 +8,27 @@ ________ compiler is used when to run "ng build" and ______ compiler is used in 
 
 Which of the following will you use to convert returned observables, to json format? : Angular has got super powers in latest versions, and it will automatically convert the returned observables to json by default
 
+Which of the following command also provide configurations and scaffolds package-specific code apart from the package installation? : npm install <package>
+
+How would you display currency and currency symbol of a country? : Use the country code for the country and use it in the pipe
+
+A way of positioning data in a page is called _________? : block
+
+You’d like to create a block content on your home page. Which item in structure menu would you click? : Block Layout
+
+Where is the path of your custom angular library defined? : NONE
+
+What package is required to create a Universal app? : Platform-server
+
+While upgrading angular app built on v5 to v6, which of the following rxjs package will you use to provide RxJS6 backward compatibility? : rxjs-compat
+
+The validator used for validating email input in Angular forms is  : 
+
+The configuration file that controls how service worker works is called _ : ngsw-config.json
+
+
+
+
+
+
+
