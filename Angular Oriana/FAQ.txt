@@ -26,6 +26,60 @@ The validator used for validating email input in Angular forms is  :
 
 The configuration file that controls how service worker works is called _ : ngsw-config.json
 
+In full virtualization the guest OSes run in isolation : True
+
+The main requirement to implement cloud computing is: : Internet
+
+Which of the following angular features enables your app to work offline? : service worker
+
+Which of the following is not a service model ? : BaaS
+
+________ allows to access information about the route which is currently active. : ActivatedRoute
+
+What refers to location and management of clouds infrastructure ? : Deployment
+
+If you run "ng generate application myapp1" within your workspace, one more project (in angular.json) is added by default apart from myapp1. Which of the following is added? : 
+
+Use of 'Resolve' guard is ________. : To delay rendering the routed component until all necessary data have been fetched.
+
+If any single file in application was updated, the whole corresponding version is treated as a new one. : True
+
+Which of the following attribute should be unique ? : Digital identity
+
+Which of the following command provides configurations and scaffolds package-specific code apart from the package installation? : 
+
+Which of the following are cloud computing's key enabling technologies ? : All of the options
+
+Which computing refers to applications and services that run on a distributed network using virtualized resources ? : Cloud
+
+You have cloned a git repo of an angular app that is using a custom library “my-lib”. While doing “npm install” the terminal is showing “my-lib” imports is missing. What would you do? : build the library “my-lib”
+
+Which is the ideal place to inject HttpClient inside your service? : constructor()
+
+The route property to configure child routes is _________ : children
+
+Which of the following angular cli command installs the package and also updates your project with configuration changes and scaffold package-specific initial code? : ng add <package>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
